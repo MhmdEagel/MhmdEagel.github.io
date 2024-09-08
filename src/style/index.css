@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+        @apply font-robotoMono;
+    }
+    body {
+        @apply bg-primaryBg text-white bg-[url(/assets/icons/GridLayers.png)] bg-cover relative min-h-[100vh];
+    }
+
+    body::after {
+        @apply content-none h-[80px] block;
+    }
+
+    
+    
+}
+
+.slick-dots li button:before {
+    @apply text-white;
+  }
+  .slick-dots li.slick-active button:before {
+    color:white !important;
+}
+
+.slick-slide div {
+    margin: 0 10px;
+}
