@@ -5,10 +5,10 @@ import SkillList from "./SkillList";
 export default function Licenses() {
   return (
     <>
-      <h5 className="text-primaryGreen text-lg font-bold ml-12 mt-8 mb-10">
+      <h5 className="mb-10 ml-12 mt-8 text-lg font-bold text-primaryGreen">
         Licenses & Certifications
       </h5>
-      <div className=" ml-12 ">
+      <div className="ml-12">
         <LicenseList />
       </div>
       <SkillList />

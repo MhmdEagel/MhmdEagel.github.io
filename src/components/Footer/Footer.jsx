@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 export default function Footer() {
   return (
-    <footer className='bg-black absolute bottom-0 w-full h-[80px] flex items-center justify-center'>
-        <h5 className='text-xs text-[#AEAEAE]'>
+    <footer className="absolute bottom-0 flex h-[80px] w-full items-center justify-center bg-black">
+      <h5 className="text-xs text-[#AEAEAE]">
         © 2024 Muhammad Eagel Triutama. All rights reserved
-        </h5>
+      </h5>
     </footer>
-  )
+  );
 }

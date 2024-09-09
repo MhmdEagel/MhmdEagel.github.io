@@ -10,7 +10,7 @@ import sqlLogo from "/assets/icons/MySql.svg";
 
 function SkillItem({ logoSrc, desc }) {
   return (
-    <div className="flex flex-col justify-center items-center  bg-primaryCard rounded-[30px] w-[150px]  h-[160px] translate-x-0 hover:-translate-y-3 hover:scale-105 transition-all duration-300 ">
+    <div className="flex h-[160px] w-[150px] translate-x-0 flex-col items-center justify-center rounded-[30px] bg-primaryCard transition-all duration-300 hover:-translate-y-3 hover:scale-105">
       <img src={logoSrc} alt="" />
       <p className="mt-4">{desc}</p>
     </div>

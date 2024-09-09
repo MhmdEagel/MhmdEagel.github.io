@@ -3,7 +3,7 @@ import ProjectItem from "./ProjectItem";
 
 export default function ProjectList() {
   return (
-    <div className="mt-16 p-4 grid grid-cols-3 justify-evenly gap-4">
+    <div className="mt-16 grid grid-cols-3 justify-evenly gap-4 p-4">
       <ProjectItem
         title={"Gawr Gura Fanpage"}
         description={"A website about a popular vtuber from YouTube"}
@@ -16,7 +16,9 @@ export default function ProjectList() {
       />
       <ProjectItem
         title={"BookShelf"}
-        description={"A website that store input of user book using vanila javascript"}
+        description={
+          "A website that store input of user book using vanila javascript"
+        }
         link={"https://github.com/MhmdEagel/BookShelf"}
       />
       <ProjectItem
@@ -24,7 +26,6 @@ export default function ProjectList() {
         description={"A website to play game called tenzies using React"}
         link={"https://github.com/MhmdEagel/tenzies-game"}
       />
-      
     </div>
   );
 }

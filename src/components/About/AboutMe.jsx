@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutMe() {
   return (
     <div className="flex justify-center">
-      <div className="max-w-5xl text-sm p-6 rounded-lg bg-primaryCard">
+      <div className="max-w-5xl rounded-lg bg-primaryCard p-6 text-sm">
         <p>
           Back in 2019, I decided to code to cure my boredom because of the
           pandemic, then i got my hand first in HTML, CSS, and Javascript
